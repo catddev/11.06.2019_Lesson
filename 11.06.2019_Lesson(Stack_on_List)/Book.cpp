@@ -1,4 +1,4 @@
-#include "Book.h"
+п»ї#include "Book.h"
 
 Book::Book()
 {
@@ -14,7 +14,7 @@ Book::Book(string title, double price)
 
 bool Book::operator<(const Book & obj) const
 {
-	return(this->price > obj.price);//> не ошибка, а чтобы сет выводил по наименьшей цене
+	return(this->price > obj.price);//> РЅРµ РѕС€РёР±РєР°, Р° С‡С‚РѕР±С‹ СЃРµС‚ РІС‹РІРѕРґРёР» РїРѕ РЅР°РёРјРµРЅСЊС€РµР№ С†РµРЅРµ
 }
 
 string Book::getTitle() const

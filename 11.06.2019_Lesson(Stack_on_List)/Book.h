@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 #include<string>
 #include<iostream>
 using namespace std;
@@ -9,7 +9,7 @@ class Book {
 public:
 	Book();
 	Book(string title, double price);
-	bool operator<(const Book& obj) const;//ïî ýòîìó îïåðàòîðó priority_queue ñàì áóäåò àâòîìàòè÷åñêè ñðàâíèâàòü
+	bool operator<(const Book& obj) const;//Ð¿Ð¾ ÑÑ‚Ð¾Ð¼Ñƒ Ð¾Ð¿ÐµÑ€Ð°Ñ‚Ð¾Ñ€Ñƒ priority_queue ÑÐ°Ð¼ Ð±ÑƒÐ´ÐµÑ‚ Ð°Ð²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸ ÑÑ€Ð°Ð²Ð½Ð¸Ð²Ð°Ñ‚ÑŒ
 	string getTitle()const;
 
 	friend ostream& operator<<(ostream& os, Book obj);
